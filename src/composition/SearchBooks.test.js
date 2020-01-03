@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import SearchBooks from './SearchBooks.js';
 
 /*  smoke test */
 it('renders without crashing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
+    ReactDOM.render(<SearchBooks />, div);
     ReactDOM.unmountComponentAtNode(div);
 });

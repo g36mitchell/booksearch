@@ -1,0 +1,45 @@
+.book__single {
+    border-bottom: solid 1px lightgray;
+    margin: 20px 5px 20px 5px;
+    padding-bottom: 20px;
+}
+
+.book__image {
+    margin-right: 20px;
+    width: 120px;
+}
+
+.book__information {
+    display: flex;
+    flex-direction: row;   
+}
+
+.book__specifics {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 10px 0px 10px;
+}
+
+.book__detail {
+    color: darkslategrey;
+}
+
+.book__detail_type {
+    font-weight: bold;
+    color: darkslategrey;  
+}
+
+p {
+    margin: 5px 0px 5px 0px;
+    text-align: left;
+}
+
+.book__single > h2 {
+    margin: 20px 0px 3px 0px;
+}
+
+.book__single > h3 {
+    margin: 3px 0px 20px 0px;
+    font-style: italic;
+}

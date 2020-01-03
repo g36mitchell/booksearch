@@ -1,0 +1,53 @@
+.search__form {
+    background-color: #6D6D6D;
+    min-height: 50px;
+}
+
+.search__form label {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.search__form input {
+    height: 25px;
+    width: 300px;
+    margin: 10px 5px 10px 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 10px 10px 10px 5px;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #00447C;
+    color: white;
+    border: 1px solid #00447C;
+}
+
+.react-primary-button {
+    background-color: #007db8;
+    color: white;
+    border: 1px solid #007db8;
+}
+
+.filter__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEDEDE;
+}
+
+.filter__form label {
+    margin: 10px 0px 10px 10px;
+    font-weight: bold;
+}
+
+.filter__form select {
+    height: 25px;
+    margin: 10px 5px 10px 5px;
+    border-radius: 3px;
+}
